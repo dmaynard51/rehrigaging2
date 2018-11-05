@@ -1,0 +1,19 @@
+{
+  "name": "workout-list",
+  "version": "1.0.0",
+  "description": "Hello workouts with express and node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon-Eric Cook",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth-connect": "^1.0.0",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.2",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.11.3",
+    "mysql": "^2.8.0"
+  }
+}

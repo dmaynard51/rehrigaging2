@@ -1,0 +1,110 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script language="javascript">
+        function emailCurrentPage(){
+            window.location.href="mailto:?subject="+document.title+"&body="+escape(window.location.href);
+        }
+    </script>
+    <form>
+<input class="MyButton" type="button" value="Aging by Account" onclick="window.location.href='https://rehrigaging.herokuapp.com/'" />
+</form>
+    
+    
+<div id="statement">
+<h2>REHRIG PACIFIC COMPANY</h2>
+
+<div id='leftdiv'>
+    <p id='billto'>Bill To: </p> 
+    <p>Remittance:<br> <br>
+    To ensure proper credit, please enclose a copy of this statement <br>
+    with your check and remit to: <br> <br>
+    
+    <p id='remit'>REHRIG PACIFIC COMPANY<br>
+    P.O BOX 514457 <br>
+    LOS ANGELES, CA 90051-4457 <br></p>
+    </p>
+    
+</div>
+
+<div id='rightdiv'>
+    <p id='csnumber'>Customer No: </p> <br> <br>
+    <p>Statement of Account</p>
+    
+    
+    <table id="table3">
+    <tr id='whiterow'>
+      <td>Total Balance Due:</td>
+      <td id='balancedue'> $</td>
+    </tr>
+    
+    <tr class='whites'>
+      <td>Total Balance Past Due:</td>
+        <td id='pastDue'> $</td>
+    </tr>
+    
+        <tr>
+      <td>1-30 Days Past Due:</td>
+        <td id='pastdue130'> $</td>
+    </tr>
+    
+    <tr>
+      <td>31-60 Days Past Due:</td>
+        <td id='pastDue3160'> $</td>
+    </tr>
+    
+    <tr>
+      <td>61-90 Days Past Due:</td>
+        <td id='pastDue6190'> $</td>
+    </tr>    
+    
+    <tr>
+      <td>Over 91 Days Past Due:</td>
+        <td id='pastDue91'> $</td>
+    </tr>        
+    
+</table>
+    
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div id='HTMLtoPDF2'>
+<table id="table2">
+    <tr>
+
+        <td class='header'>Invoice Number</td>
+        <td class='header'>Invoice Date</td>
+        <td class='header'>Due Date</td>
+        <td class='header'>Salesorder Number</td>
+        <td class='header'>PO Number</td>        
+        <td class='header'>Invoice Amount</td>
+        <td class='header'>Balance Due</td>
+        <td class='header'>Current</td>
+        <td class='header'>Past Due 1-30</td>
+        <td class='header'>Past Due 31-60</td>
+        <td class='header'>Past Due 61-90</td>       
+        <td class='header'>Past Due Over 90</td>        
+    </tr>
+</table>
+
+
+
+
+</div>
+</div>
+
+
+<input type="button" onclick="printDiv('statement')" value="print a statement!" />
+
+
+<a href="#" class="export2">Export Table data into Excel</a>
+
+<a href="javascript:emailCurrentPage()">Mail this page!</a>

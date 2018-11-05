@@ -1,0 +1,129 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h1 {
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+input[type=text], select {
+    font-family: arial, sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    font-family: arial, sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-family: arial, sans-serif;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#totals {
+    font-weight: bold;
+}
+
+td
+{
+    font-family: arial;
+}
+
+#leftdiv {
+    font-family: arial;
+    font-weight: bold;
+    float: left;
+}
+
+#rightdiv {
+    font-family: arial;
+    font-weight: bold;
+    float: right;
+
+
+}
+
+
+p { margin:0; }
+
+#remit {
+        position: relative;
+    left: 30px;
+
+}
+
+#table3 {
+        background-color: #f2f2f2;
+        font-size: 15px;
+        border: none;
+}
+
+#last {
+        font-weight: bold;
+}
+
+.header {
+        font-weight: bold;
+}
+
+.MyButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h3 span
+{
+    background-color: yellow;
+}
